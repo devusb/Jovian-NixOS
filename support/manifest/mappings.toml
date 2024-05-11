@@ -184,11 +184,11 @@ linux-lts.ignore = true
 # old kernel
 linux-neptune.ignore = true
 
-# old kernel
-linux-neptune-61.ignore = true
+# current kernel
+linux-neptune-61 = { map = "linux_jovian", pkgrel = 1 }
 
-# new kernel
-linux-neptune-65 = { map = "linux_jovian", pkgrel = 1 }
+# too new kernel
+linux-neptune-65.ignore = true
 
 # debug kernels
 linux-neptune-65-kasan.ignore = true
