@@ -46,7 +46,7 @@ in
         "amdgpu.gttsize=8128"
         "amdgpu.sched_hw_submission=4"
         "audit=0"
-        "fbcon=vc:4-6"
+        # "fbcon=vc:4-6"
         "fbcon=rotate:1"
       ];
     })
